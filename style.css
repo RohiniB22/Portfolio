@@ -1,0 +1,503 @@
+/* Global Styles */
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+   
+   
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Navbar */
+nav {
+    background: #333;
+    color: #fff;
+    /* padding: 1rem; */
+    padding: 20px 95px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: rgb(6, 0, 17);
+    position: fixed;
+    width: 100%;
+}
+
+nav .logo >a{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a.active{
+    color: orange;
+}
+nav ul li a {
+    color: #fff;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+    font-size: 25px;
+}
+
+nav ul li a:hover {
+    color: orange;
+}
+
+/* Home Section */
+.home-section {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    gap: 2rem;
+    /* padding: 3rem 1rem; */
+    padding:0 95px;
+    background-color: #e3e3e3;
+    height: 100vh;
+    background-color: rgb(6, 0, 17);
+     /* position: fixed; */
+    padding-top: 80px;
+    /* border: 2px solid red; */
+    
+    
+}
+
+.home-content {
+    max-width: 600px;
+    text-align: left;
+    /* border: 2px solid orange; */
+}
+
+.home-content h1 {
+    font-size: 3.5rem;
+    /* margin-bottom: 0.5rem; */
+    color: white;
+   padding-top: 50px;
+}
+
+.home-content h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.home-content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+.home-image{
+    padding-top: 50px;
+    width: 500px;
+    height: auto;
+    /* border: 2px solid red; */
+   
+    
+}
+
+.home-image img {
+    width: 700px;
+    margin: 50px;
+    height: 700px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* border: 2px solid orange; */
+   
+}
+h1>span{
+    color: orange;
+}
+
+/* Download Button */
+.download-btn {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: orange;
+    /* background: linear-gradient(135deg, #6a11cb, #2575fc); */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.download-btn:hover {
+    background-color: rgb(6, 0, 17);
+    /* background: linear-gradient(135deg, #5a0fbb, #1b63d0); */
+    transform: scale(1.05);
+    border: 2px solid orange;
+}
+
+.home-image img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+/* About Section */
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 3rem 1rem;
+    background-color: #fff;
+    height: 100vh;
+    /* border: 2px solid red; */
+}
+
+.about-image img {
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* border: 2px solid green; */
+}
+
+.about-content {
+    max-width: 600px;
+    text-align: left;
+    /* border: 2px solid orange; */
+}
+.about-content h1{
+    font-size: 2.5rem;
+   
+    color: black;
+   
+}
+.about-content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Skills Section */
+#skills {
+    padding: 3rem 1rem;
+    text-align: center;
+    background-color: #e3e3e3;
+    height: 100vh;
+    background-color: rgb(6, 0, 17);
+    
+}
+
+#skills h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color:white;
+    padding-top: 60px;
+}
+
+.skills-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 3%;
+    padding: 0 75px;
+    /* background-color: green; */
+    
+}
+
+.skills-box .box {
+    /* padding: 2rem; */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 350px;
+    text-align: center;
+    font-size: 1.5rem;
+    transition: transform 0.3s ease;
+    height: 150px;
+    margin-top: 50px;
+    /* background-color: red; */
+    /* border: 1px solid red; */
+
+  
+    
+}
+.box img{
+    height: 150px;
+    width: 350px;
+    
+}
+
+.skills-box .box:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+
+/* Projects Section Styles */
+#projects {
+    background: linear-gradient(135deg, #f7f7f7, #eaeaea);
+    padding: 60px 20px;
+    text-align: center;
+    height: 100vh;
+   
+}
+
+#projects h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #222;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    padding: 40px;
+   
+}
+
+#projects h2::after {
+    content: "";
+    width: 80px;
+    height: 4px;
+    /* background: #2575fc; */
+    display: block;
+    margin: 10px auto 0;
+    border-radius: 4px;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    /* margin-top: 30px; */
+}
+
+.project-box {
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 320px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    /* position: relative; */
+}
+
+.project-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.project-image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: filter 0.4s ease, transform 0.4s ease;
+}
+
+.project-box:hover img {
+    filter: brightness(80%);
+    transform: scale(1.1);
+}
+
+.project-content {
+    padding: 20px;
+    text-align: left;
+}
+
+.project-content h3 {
+    font-size: 1.6em;
+    color: #333;
+    margin-bottom: 10px;
+   
+}
+
+.project-content p {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.project-link {
+    display: inline-block;
+    /* background: #2575fc; */
+    background: rgb(6, 0, 17);
+    border: 5px solid orange;
+    color: #fff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease, transform 0.3s ease;
+    font-weight: bold;
+}
+
+.project-link:hover {
+    /* background: orange; */
+    color: orange;
+    transform: translateY(-5px);
+}
+
+
+/* Contact Section */
+.contact-section {
+    background-color: rgb(6, 0, 17);
+    color: #fff;
+    padding: 3rem 2rem;
+    text-align: center;
+    
+   /* height:500px; */
+}
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    
+} 
+
+/* Contact Form */
+.contact-form {
+    background: #fff;
+    color: #333;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    
+}
+
+.contact-form h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #333;
+    /* border: 2px solid orange; */
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contact-form input {
+    padding: 0.9rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    /* width: 400px; */
+}
+
+.contact-form button {
+    padding: 0.8rem;
+    background-color:orange;
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color:orange;
+}
+
+/* Social Media Links */
+.social-links {
+    max-width: 400px;
+    width: 100%;
+    /* margin-top: 40px; */
+   
+}
+
+.social-links h3 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    /* margin-top: 50px; */
+    
+}
+
+h4>a{
+    text-decoration: none;
+    color:#ffffff;
+
+    
+}
+h4>a:hover{
+    color: orange;
+}
+h4{
+    font-size: 25px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 30px;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background: rgb(6, 0, 17);
+    border: 2px solid orange;
+    color: #fff;
+    border-radius: 50%;
+    
+    transition: transform 0.3s ease, background 0.3s ease;
+    border: 2px solid orange;
+}
+
+.icon:hover {
+    transform: scale(1.2);
+    
+}
+
+/* Social Media Colors */
+.icon.facebook:hover {
+    color: orange;
+    
+}
+
+.icon.twitter:hover {
+    color: orange;
+}
+
+.icon.linkedin:hover {
+    color: orange;
+}
+
+.icon.github:hover {
+    color:orange;
+   
+}
+
